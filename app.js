@@ -1,8 +1,7 @@
-document
-  .querySelectorAll(".question-answer")
+document.querySelectorAll(".quest-arrow")
   .forEach((el) => el.addEventListener("click", statusChange));
 
 function statusChange() {
-  this.children[0].children[0].classList.toggle("strong");
-  this.children[1].classList.toggle("hidden");
+  this.children[0].classList.toggle("strong");
+  this.parentNode.children[1].classList.toggle('hidden');
 }
