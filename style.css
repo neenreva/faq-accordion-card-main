@@ -149,7 +149,7 @@ a:hover {
     background-image: url(images/illustration-woman-online-desktop.svg),
       url(images/bg-pattern-desktop.svg);
     background-repeat: no-repeat;
-    background-position: -4vw 50%, -34vw 60%;
+    background-position: -4vw 50%, -32vw 60%;
     background-size: 32vw, 60vw;
     position: static;
   }
